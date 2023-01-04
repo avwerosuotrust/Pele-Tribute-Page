@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #000;
+	color: #FAEBD7;
+    font-family: Oswald;
+    font-size: 1.3rem;
+}
+.video-container{
+	width: 100%;
+	height: 100vh;
+	border: 2px solid blue;
+}
+source{
+	width: 100%;
+	height: 100vh;
+}
+.header{
+	 width: 100%;
+	 height: 10vh;
+	 background-color: white;
+	 color: #C0C0C0;
+	 position: fixed;
+	 display: flex;
+	 justify-content: center;
+}
+h1{
+	font-size: 2.5rem;
+}
+.slider{
+	width: 100%;
+	height: 200%;
+	background-image: url(https://media.gettyimages.com/id/951821438/photo/in-this-handout-image-supplied-by-hublot-hublot-brand-ambassador-pele-poses-wearing-the.jpg?s=612x612&w=0&k=20&c=m5HP8HVsaXAUttwpdeRnujvuS8fDmQn5SGQG0p4lMr8=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: change 9s infinite linear;
+}
+@keyframes change{
+ 0%{
+ 	background-image: url(https://media.gettyimages.com/id/900481092/photo/brazilian-striker-pel%C3%A9-wearing-his-santos-jersey-smiles-before-playing-a-friendly-soccer-match.jpg?s=612x612&w=0&k=20&c=ZVf4bWaNALJWi1VfL8F3ahJbObbyEzrqvphHjmnHnEw=);
+ }
+
+ 25%{
+ 	background-image: url(https://media.gettyimages.com/id/467547042/photo/pele-holds-a-replica-wolrd-cup-trophy-during-a-press-conference-at-the-peninsula-on-march-26.jpg?s=612x612&w=0&k=20&c=p4A_YtwZivTle-lF75Q9kGX-ntP4OMCfx5sliWmTaHY=);
+ }
+
+ 50%{
+ 	background-image: url(https://media.gettyimages.com/id/496570815/photo/brazilian-footballer-pele-playing-for-brazil-circa-1958.jpg?s=612x612&w=0&k=20&c=NEJAcU80m-HIpEhMVRpgRuJttFt6Os-k-0jF_VjcFik=);
+ }
+
+ 75%{
+ 	background-image: url(https://media.gettyimages.com/id/1139979611/photo/legendary-brazilian-former-soccer-player-pele-attends-a-press-conference-at-hotel-lutetia-on.jpg?s=612x612&w=0&k=20&c=oGSS0spMNz2q6tZSHGL0DewLcWOIauK7I1WIUqhguxk=);
+ }
+
+  100%{
+ 	background-image: url(https://media.gettyimages.com/id/900481092/photo/brazilian-striker-pel%C3%A9-wearing-his-santos-jersey-smiles-before-playing-a-friendly-soccer-match.jpg?s=612x612&w=0&k=20&c=ZVf4bWaNALJWi1VfL8F3ahJbObbyEzrqvphHjmnHnEw=);
+ }
+}
+
+.content-container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+span{
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+ul{
+	width: 90%;
+	list-style: none;
+}
+li{
+	padding: 3%;
+	font-size: 1.5rem;
+}
+blockquote{
+	 font-style: italic;
+}
+.footer{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+h3{
+	font-size: 3rem;
+	font-family: Roboto;
+}
+video{
+	width: 80%;
+	height: 520px;
+	padding: 5%;
+}
